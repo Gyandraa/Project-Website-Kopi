@@ -9,13 +9,27 @@ export default function Navbar() {
         </h2>
       </div>
 
-      <div className="flex-1 flex justify-center gap-6 text-gray-800">
-        <h3 className="cursor-pointer hover:text-black">Home</h3>
-        <h3 className="cursor-pointer hover:text-black">Lokasi</h3>
-        <h3 className="cursor-pointer hover:text-black">Menu</h3>
-        <h3 className="cursor-pointer hover:text-black">Order</h3>
-      </div>
+      <div className="flex-1 flex justify-center gap-8 text-gray-700 font-medium">
+        <h3 className="relative cursor-pointer group">
+          Home
+          <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-black transition-all duration-300 group-hover:w-full"></span>
+        </h3>
 
+        <h3 className="relative cursor-pointer group">
+          Lokasi
+          <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-black transition-all duration-300 group-hover:w-full"></span>
+        </h3>
+
+        <h3 className="relative cursor-pointer group">
+          Menu
+          <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-black transition-all duration-300 group-hover:w-full"></span>
+        </h3>
+
+        <h3 className="relative cursor-pointer group">
+          Order
+          <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-black transition-all duration-300 group-hover:w-full"></span>
+        </h3>
+      </div>
       <div className="flex-1 flex justify-end">
         <PiShoppingCartSimpleFill size={24} className="cursor-pointer " />
       </div>
