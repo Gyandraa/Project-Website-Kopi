@@ -11,7 +11,7 @@ export default function Navbar() {
 
       <div className="flex-1 flex justify-center gap-6 text-gray-800">
         <h3 className="cursor-pointer hover:text-black">Home</h3>
-        <h3 className="cursor-pointer hover:text-black">Location</h3>
+        <h3 className="cursor-pointer hover:text-black">Lokasi</h3>
         <h3 className="cursor-pointer hover:text-black">Menu</h3>
         <h3 className="cursor-pointer hover:text-black">Order</h3>
       </div>
