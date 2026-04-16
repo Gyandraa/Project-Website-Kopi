@@ -1,9 +1,10 @@
 import { CiCoffeeCup } from "react-icons/ci";
 import { GiCoffeeCup } from "react-icons/gi";
 import { PiCoffeeBeanFill } from "react-icons/pi";
+
 export default function HomePages() {
   return (
-    <div className="mt-25 px-25">
+    <div className="mt-25 px-30">
       <div className="flex items-center justify-between">
         <div className="max-w-md">
           <h3 className="text-3xl font-bold leading-snug">
@@ -44,12 +45,12 @@ export default function HomePages() {
           <img
             src="/images/banner.jpg"
             alt="banner"
-            className="w-90 h-90 object-cover rounded-xl "
+            className="w-100 h-100 object-cover rounded-xl "
           />
           <img
             src="/images/banner2.jpg"
             alt="banner2"
-            className="w-40 h-40 object-cover rounded-xl absolute -bottom-6 -left-6 border-4 border-white shadow-xl -rotate-20"
+            className="w-45 h-45 object-cover rounded-xl absolute -bottom-6 -left-6 border-4 border-white shadow-xl -rotate-20"
           />
         </div>
       </div>
