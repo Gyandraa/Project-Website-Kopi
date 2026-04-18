@@ -6,7 +6,7 @@ export default function Navbar() {
     <div className="relative flex items-center justify-between py-4 px-8 bg-white shadow-md">
       <div>
         <h2 className="text-3xl font-extrabold tracking-tighter text-gray-900">
-          KopiKita
+          Kopi<span className="text-amber-500">Kita</span>
         </h2>
       </div>
 
