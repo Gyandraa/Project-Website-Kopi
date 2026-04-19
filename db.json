@@ -4,6 +4,7 @@
       "id": 1,
       "name": "Kopi Latte Karamel",
       "price": 22000,
+      "rating": 4.5,
       "category": "coffee",
       "image": "/images/coffee-latte-caramel.jpg"
     },
@@ -11,6 +12,7 @@
       "id": 2,
       "name": "Es Kopi Susu",
       "price": 19000,
+      "rating": 4.7,
       "category": "coffee",
       "image": "/images/iced-coffee.jpg"
     },
@@ -18,6 +20,7 @@
       "id": 3,
       "name": "Espresso",
       "price": 10000,
+      "rating": 4.5,
       "category": "coffee",
       "image": "/images/kopi-espresso.jpg"
     },
@@ -25,6 +28,7 @@
       "id": 4,
       "name": "Es Coklat",
       "price": 15000,
+      "rating": 4.7,
       "category": "non-coffee",
       "image": "/images/iced-cokelat.jpg"
     },
@@ -32,6 +36,7 @@
       "id": 5,
       "name": "Lemon Tea",
       "price": 10000,
+      "rating": 4.6,
       "category": "non-coffee",
       "image": "/images/lemon-tea.jpg"
     },
@@ -39,6 +44,7 @@
       "id": 6,
       "name": "Matcha Latte",
       "price": 15000,
+      "rating": 4.8,
       "category": "non-coffee",
       "image": "/images/matcha-latte.jpg"
     }
