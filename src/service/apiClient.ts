@@ -4,7 +4,7 @@ const BASE_URL = "http://localhost:3001";
 
 export async function ApiClient(endpoint: string) {
   try {
-    const response = await axios.get(`${BASE_URL} ${endpoint}`);
+    const response = await axios.get(`${BASE_URL}${endpoint}`);
 
     if (response.status !== 200) {
       throw new Error(`Api request failed status ${response.status}`);
@@ -12,6 +12,6 @@ export async function ApiClient(endpoint: string) {
     return response.data;
   } catch (error) {
     console.log("terjadi error", error);
-    return null;
+    throw error;
   }
 }
