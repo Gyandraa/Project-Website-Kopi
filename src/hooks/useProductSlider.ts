@@ -4,12 +4,12 @@ import type { Products } from "../types/products";
 
 export default function UseProductSlider() {
   const { data, isPending, isError, error } = useQuery<Products[]>({
-    queryKey: ["productsSlider"],
+    queryKey: ["productSlider"],
     queryFn: getData,
   });
 
   return {
-    productsSlider: data ?? [],
+    productSlider: data ?? [],
     isPending,
     isError,
     error,
