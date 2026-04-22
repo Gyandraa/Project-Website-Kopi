@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import type { Products } from "../../types/productsTypes";
 
 type Props = {
@@ -12,23 +13,25 @@ export default function ProductList({ products }: Props) {
           key={product.id}
           className="bg-white rounded-2xl shadow-md hover:shadow-xl transition duration-300 overflow-hidden group"
         >
-          <div className="overflow-hidden">
-            <img
-              src={product.image}
-              alt={product.name}
-              className="w-full h-50 object-cover"
-            />
-          </div>
+          <Link to={`/productDetail/${product.id}`}>
+            <div className="overflow-hidden">
+              <img
+                src={product.image}
+                alt={product.name}
+                className="w-full h-50 object-cover"
+              />
+            </div>
 
-          <div className="p-4">
-            <h3 className="text-lg font-semibold text-gray-900">
-              {product.name}
-            </h3>
+            <div className="p-4">
+              <h3 className="text-lg font-semibold text-gray-900">
+                {product.name}
+              </h3>
 
-            <p className="text-red-400 font-bold mt-1">
-              Rp {product.price.toLocaleString("id-ID")}
-            </p>
-          </div>
+              <p className="text-red-400 font-bold mt-1">
+                Rp {product.price.toLocaleString("id-ID")}
+              </p>
+            </div>
+          </Link>
         </div>
       ))}
     </div>
