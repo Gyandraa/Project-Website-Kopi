@@ -4,49 +4,55 @@
       "id": 1,
       "name": "Kopi Latte Karamel",
       "price": 22000,
-      "rating": 4.5,
+      "description": "Perpaduan espresso dengan susu creamy dan sentuhan manis karamel yang lembut, cocok untuk pecinta kopi dengan rasa manis seimbang.",
+      "rating": 4.7,
       "category": "coffee",
       "image": "/images/coffee-latte-caramel.jpg"
     },
     {
       "id": 2,
+      "name": "Matcha Latte",
+      "price": 15000,
+      "description": "Minuman berbahan dasar matcha dengan susu creamy, menghadirkan rasa khas teh hijau yang lembut dan menenangkan.",
+      "rating": 4.8,
+      "category": "non-coffee",
+      "image": "/images/matcha-latte.jpg"
+    },
+    {
+      "id": 3,
       "name": "Es Kopi Susu",
       "price": 19000,
+      "description": "Kombinasi espresso dengan susu segar dan gula yang pas, menghadirkan rasa kopi yang ringan, manis, dan menyegarkan.",
       "rating": 4.7,
       "category": "coffee",
       "image": "/images/iced-coffee.jpg"
     },
     {
-      "id": 3,
-      "name": "Espresso",
-      "price": 10000,
-      "rating": 4.5,
-      "category": "coffee",
-      "image": "/images/kopi-espresso.jpg"
-    },
-    {
       "id": 4,
       "name": "Es Coklat",
       "price": 15000,
+      "description": "Minuman cokelat dingin dengan rasa manis dan creamy, cocok dinikmati kapan saja untuk menyegarkan hari.",
       "rating": 4.7,
       "category": "non-coffee",
       "image": "/images/iced-cokelat.jpg"
     },
     {
       "id": 5,
-      "name": "Lemon Tea",
+      "name": "Espresso",
       "price": 10000,
-      "rating": 4.6,
-      "category": "non-coffee",
-      "image": "/images/lemon-tea.jpg"
+      "description": "Ekstraksi kopi murni dengan rasa kuat dan aroma pekat, cocok untuk kamu yang menyukai cita rasa kopi autentik.",
+      "rating": 4.5,
+      "category": "coffee",
+      "image": "/images/kopi-espresso.jpg"
     },
     {
       "id": 6,
-      "name": "Matcha Latte",
-      "price": 15000,
-      "rating": 4.8,
+      "name": "Lemon Tea",
+      "price": 10000,
+      "description": "Perpaduan teh segar dengan perasan lemon alami, memberikan sensasi asam manis yang menyegarkan.",
+      "rating": 4.6,
       "category": "non-coffee",
-      "image": "/images/matcha-latte.jpg"
+      "image": "/images/lemon-tea.jpg"
     }
   ]
 }
